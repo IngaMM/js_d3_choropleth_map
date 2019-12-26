@@ -1,0 +1,34 @@
+#titlebox {
+  width: 1500px;
+}
+
+#title,
+#description {
+  width: 1000px;
+  position: relative;
+  top: 50px;
+  margin: auto;
+}
+
+#tooltip {
+  position: absolute;
+  text-align: center;
+  width: auto;
+  height: 20px;
+  padding: 5px;
+  font: 14px sans-serif;
+  background-color: rgba(105, 105, 105, 0.6);
+  color: white;
+  pointer-events: none;
+  border-radius: 3px;
+}
+
+.states-boundaries {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
+
+#legend {
+  position: absolute;
+}
